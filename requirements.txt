@@ -1,0 +1,7 @@
+tensorflow==2.11.*
+tensorflow_io==0.28.*
+keras
+matplotlib
+pandas
+numpy
+seaborn
