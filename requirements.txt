@@ -1,7 +1,9 @@
 tensorflow==2.11.*
 tensorflow_io==0.28.*
+# tensorflow-gpu==2.10
 keras
 matplotlib
+# librosa
 pandas
-numpy
+numpy==1.26.4
 seaborn
