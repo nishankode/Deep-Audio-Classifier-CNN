@@ -2,6 +2,8 @@
 
 This project tackles the famous HP Challenge by building a deep learning model to detect and count capuchin bird calls from audio recordings. The solution converts raw audio files (in WAV and MP3 formats) into spectrograms, builds a TensorFlow dataset, trains a convolutional neural network (CNN) on the spectrograms, and finally makes predictions on unseen forest recordings.
 
+Challenge Dataset Link: https://www.kaggle.com/datasets/kenjee/z-by-hp-unlocked-challenge-3-signal-processing
+
 ---
 
 ## Table of Contents
@@ -65,7 +67,7 @@ Ensure that you have Python 3.6+ installed along with the following libraries:
 You can install the Python packages using pip:
 
 ```bash
-pip install tensorflow tensorflow-io numpy matplotlib pandas
+pip install -r requirements.txt
 ```
 
 ---
